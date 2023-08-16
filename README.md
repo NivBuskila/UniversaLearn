@@ -1,2 +1,2 @@
 # UniversaLearn
-Here we'll store our frontend code for out project :)
+Here we'll store the code for our project :)
