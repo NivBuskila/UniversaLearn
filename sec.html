@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <title>Sign Up</title>
+    
+</head>
+<body>
+    <h1 class="title">Sign Up</h1>
+    <form id="signup-form">
+        <div class="input-group">
+            <label for="first-name">First Name:</label>
+            <br>
+            <input class="input-item" type="text" id="first-name" name="first-name" required>
+        </div>
+        <div class="input-group">
+            <label for="last-name">Last Name:</label>
+            <br>
+            <input class="input-item" type="text" id="last-name" name="last-name" required>
+        </div>
+        <div class="input-group">
+            <label for="birth-date">Birth Date:</label>
+            <br>
+            <input class="input-item-little"type="date" id="birth-date" name="birth-date" required>
+        </div>
+        <div class="input-group">
+            <label for="gender">Gender:</label>
+            <br>
+            <select class="input-item-little" id="gender" name="gender" required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <br>
+        <div class="input-group">
+            <input class="btn-signin" type="submit" value="Sign in">
+        </div>
+    </form>
+</body>
+</html>
