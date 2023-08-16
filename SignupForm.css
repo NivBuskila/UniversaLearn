@@ -11,7 +11,9 @@ body {
   color: #222;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
+  font-size: 56px;
 }
+
 
 #login-box {
   position: relative;
@@ -21,6 +23,8 @@ body {
   background: #FFF;
   border-radius: 2px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .left {
@@ -31,6 +35,8 @@ body {
   padding: 40px;
   width: 300px;
   height: 400px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 h1 {
@@ -63,13 +69,13 @@ input[type="password"] {
 
 input[type="text"]:focus,
 input[type="password"]:focus {
-  border-bottom: 2px solid #16a085;
-  color: #16a085;
+  border-bottom: 2px solid #c442c6;
+  color: #a038a9;
   transition: 0.2s ease;
 }
 
 input[type="submit"] {
-  margin-top: 28px;
+  margin-top: 4%;
   width: 120px;
   height: 32px;
   background: #9634b9;
@@ -123,11 +129,12 @@ input[type="submit"]:active {
   background-size: cover;
   background-position: center;
   border-radius: 0 2px 2px 0;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .right .loginwith {
   display: block;
-  margin-bottom: 40px;
   font-size: 28px;
   color: #FFF;
   text-align: center;
