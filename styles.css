@@ -15,7 +15,9 @@
     letter-spacing: -1px;
     font-weight: 900;
     font-family: sans-serif;
-    margin-right: 48px;
+    
+    display: flex;
+    justify-content: center;
 
 
   
@@ -30,7 +32,7 @@ top: 12px;
 cursor: pointer;
 font-size: 14px;
 float: right;
-
+}
 #first-page{
     width: 200px;
     height: 200px;
@@ -83,13 +85,4 @@ color:aliceblue ;
  text-align: center;  
  color:aliceblue;
  font-style: italic;
-}
-
-
-
-
-
-}
-h1{
-    background-color: blueviolet;
 }
