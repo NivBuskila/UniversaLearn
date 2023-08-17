@@ -143,8 +143,8 @@ input[type="submit"]:active {
 
 .right {
   position: absolute;
-  top: 0;
   right: 0;
+  top: 40px;
   box-sizing: border-box;
   padding: 40px;
   width: 300px;
@@ -157,12 +157,7 @@ input[type="submit"]:active {
   flex-wrap: wrap;
 }
 
-.right .loginwith {
-  display: block;
-  font-size: 28px;
-  color: #FFF;
-  text-align: center;
-}
+
 
 button.social-signin {
   margin-bottom: 20px;
